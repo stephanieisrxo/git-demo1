@@ -1,6 +1,7 @@
 import sys
 
 def hello():
+	print("Logging Debug")			
 	if sys.argv[1] == "Mars":
 		hellomars()
 	elif sys.argv[1] == "Jupiter":
